@@ -16,6 +16,8 @@
 		97C8A0422B68765900B7CDDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C8A0412B68765900B7CDDA /* ContentView.swift */; };
 		97C8A0442B68765A00B7CDDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C8A0432B68765A00B7CDDA /* Assets.xcassets */; };
 		97C8A0472B68765A00B7CDDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C8A0462B68765A00B7CDDA /* Preview Assets.xcassets */; };
+		97C8A0522B68887700B7CDDA /* BinauralBeatPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C8A0512B68887700B7CDDA /* BinauralBeatPlayer.swift */; };
+		97C8A0532B68887700B7CDDA /* BinauralBeatPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C8A0512B68887700B7CDDA /* BinauralBeatPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,7 @@
 		97C8A0412B68765900B7CDDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		97C8A0432B68765A00B7CDDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C8A0462B68765A00B7CDDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97C8A0512B68887700B7CDDA /* BinauralBeatPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinauralBeatPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,7 @@
 				97C8A02F2B68765200B7CDDA /* ContentView.swift */,
 				97C8A0312B68765900B7CDDA /* Assets.xcassets */,
 				97C8A0332B68765900B7CDDA /* Preview Content */,
+				97C8A0512B68887700B7CDDA /* BinauralBeatPlayer.swift */,
 			);
 			path = ZenFocus;
 			sourceTree = "<group>";
@@ -232,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97C8A0302B68765200B7CDDA /* ContentView.swift in Sources */,
+				97C8A0522B68887700B7CDDA /* BinauralBeatPlayer.swift in Sources */,
 				97C8A02E2B68765200B7CDDA /* ZenFocusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97C8A0422B68765900B7CDDA /* ContentView.swift in Sources */,
+				97C8A0532B68887700B7CDDA /* BinauralBeatPlayer.swift in Sources */,
 				97C8A0402B68765900B7CDDA /* ZenFocusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
