@@ -11,14 +11,19 @@ let hueColors = stride(from: 0, to: 1,by: 0.01).map {
     Color(hue: $0, saturation: 1, brightness: 1)}
     
 private let gradient = LinearGradient(gradient:Gradient(colors: hueColors),startPoint: .leading, endPoint: .trailing)
+var appState = AppState() // Instantiate AppState
+
 struct ContentView: View {
         var body: some View {
-            ZStack {
-                Color.black.opacity(1).edgesIgnoringSafeArea(.all)
-                CircularSlider()
-                    .offset(x: -0.5, y: -11)
-                    .rotationEffect (.degrees (180))
-            }
+//            ZStack {
+//                Color.black.opacity(1).edgesIgnoringSafeArea(.all)
+//                CircularSlider()
+//                    .offset(x: -0.5, y: -11)
+//                    .rotationEffect (.degrees (180))
+//            }
+            PomodoroView()
+                          .environmentObject(appState) // Pass AppState as an environment object
+//            PomodoroView()
         }
     }
 struct ContentView_Previews: PreviewProvider{
